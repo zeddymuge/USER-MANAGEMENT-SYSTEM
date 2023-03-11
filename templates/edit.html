@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body >
+    <div class="body">
+    
+
+{% block content %}
+  <h1 class="head">Edit User</h1>
+  <form method="post">
+    <label for="f_name">First Name:</label>
+    <input type="text" name="f_name" value="{{ user[1] }}"><br/><br/>
+
+    <label for="l_name">Last Name:</label>
+    <input type="text" name="l_name" value="{{ user[2] }}"><br/><br/>
+    <label for="l_name">Password:</label>
+    <input type="text" name="password" value="{{ user[4] }}"><br/><br/>
+    <label for="l_name">email:</label>
+    <input type="text" name="email" value="{{ user[3] }}"><br/><br/>
+    <label for="l_name">role:</label>
+    <input type="text" name="role" value="{{ user[5] }}"><br/><br/>
+    <label for="l_name">country:</label>
+    <input type="text" name="country" value="{{ user[6] }}"><br/><br/>
+
+    <button class="btn" type="submit">Save changes</button>
+    <p >go back : <a class="bottom" href="{{ url_for('login') }}">Login</a>  </p>
+    
+    
+{% endblock %}
+</div>
+
+</body>
+</html>
