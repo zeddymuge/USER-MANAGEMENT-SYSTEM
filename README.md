@@ -11,5 +11,4 @@ Once you have logged in, you can create new user accounts, manage existing accou
 Contributing
 If you would like to contribute to this project, please open an issue or submit a pull request. We welcome all contributions and appreciate your help in making this system better.
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+
