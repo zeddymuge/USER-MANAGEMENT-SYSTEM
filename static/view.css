@@ -1,0 +1,36 @@
+
+  
+  /* Styles for mobile */
+  
+  @media screen and (max-width: 600px) {
+  
+    .container {
+      max-width: 100%;
+      padding: 2px;
+    }
+  
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+  
+    td, th {
+      padding: 0px;
+      font-size: 10px;
+      overflow-wrap: break-word;
+      }
+  
+    .head {
+      font-size: 24px;
+    }
+  
+    .edit, .delete {
+      font-size: 10px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  
+  }
+  

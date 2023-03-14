@@ -9,7 +9,7 @@
     font-size: 20px;
     
 }
-.head{
+.head, .nead{
     color: aquamarine;
 }
 
@@ -48,17 +48,77 @@
  
  /* Styles for phone screens up to 768px */
 @media only screen and (max-width: 768px) {
-    .body, .container {
+    .body, .container{
       margin: 30px 10px;
+      font-size: 16px;
     }
-  }
+    .head{
+      font-size: 13px;
+    }
+    .btn {
+      font-size: 14px;
+    }
+    input[type="text"]{
+      width: 40%;
+      height: 15px;
+    }
+    .container {
+      max-width: 100%;
+      padding: 2px;
+    }
   
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+  
+      td, th {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        font-size: 10px;
+        border-collapse: collapse;
+    }
+
+   .nead{
+      font-size: 25px;
+   }
+  }
   /* tablet screens between 768px and 1024px */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .body, .container {
-      margin: 30px 20px;
+  @media only screen and (min-width: 760px) and (max-width: 1024px) {
+    .body, .container{
+      margin: 30px 90px;
+      font-size: 18px;
     }
+    .head{
+      font-size: 22px;
+    }
+    .btn {
+      font-size: 15px;
+    }
+    input[type="text"]{
+      width: 40%;
+      height: 20px;
+    }
+    .container {
+      max-width: 100%;
+      padding: 8px;
+    }
+  
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+  
+    td, th {
+      overflow-wrap: break-word;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+   .nead{
+    font-size: 20px;
+   }
+    
   }
   
- 
+
   

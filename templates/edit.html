@@ -12,7 +12,7 @@
     
 
 {% block content %}
-  <h1 class="head">Edit User</h1>
+  <h2 class="nead">Edit User</h2>
   <form method="post">
     <label for="f_name">First Name:</label>
     <input type="text" name="f_name" value="{{ user[1] }}"><br/><br/>
@@ -28,8 +28,8 @@
     <label for="l_name">country:</label>
     <input type="text" name="country" value="{{ user[6] }}"><br/><br/>
 
-    <button class="btn" type="submit">Save changes</button>
-    <p >go back : <a class="bottom" href="{{ url_for('login') }}">Login</a>  </p>
+    <button class="btn" type="submit">Save</button>
+    <p>go back : <a class="bottom" href="{{ url_for('login') }}">Login</a>  </p>
     
     
 {% endblock %}
